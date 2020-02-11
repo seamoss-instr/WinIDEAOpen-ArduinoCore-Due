@@ -1,0 +1,555 @@
+ <Root>
+  <REG_HEADER>
+   <Title>BF283F24-70B9-4f97-86E6-0AD5BAAE9E01</Title>
+   <VersionHigh>0</VersionHigh>
+   <VersionLow>1</VersionLow>
+  </REG_HEADER>
+  <REG_ROOT>
+   <RegVer>1279848448</RegVer>
+   <Project>
+    <CompilerType>0</CompilerType>
+    <GlobalOptions>
+     <AHeaderExtension>INC;h</AHeaderExtension>
+     <AInpExtensions>s</AInpExtensions>
+     <AOutExtensions>o</AOutExtensions>
+     <AsmAdditionalOutExt></AsmAdditionalOutExt>
+     <AssemblerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</AssemblerRelPath>
+     <BeepWhenDone>1</BeepWhenDone>
+     <CaptureTranslatorsOutputAsm>1</CaptureTranslatorsOutputAsm>
+     <CaptureTranslatorsOutputCmp>1</CaptureTranslatorsOutputCmp>
+     <CaptureTranslatorsOutputLnk>1</CaptureTranslatorsOutputLnk>
+     <ChangeWorkingDirectory>1</ChangeWorkingDirectory>
+     <CInpExtensions>C;CPP</CInpExtensions>
+     <CmpAdditionalOutExt></CmpAdditionalOutExt>
+     <CompCmdLineIncPrefix>-I</CompCmdLineIncPrefix>
+     <CompCmdLinePostfix></CompCmdLinePostfix>
+     <CompCmdLinePrefix></CompCmdLinePrefix>
+     <CompilerDirectory>$(EXEDIR)gcc\arm\</CompilerDirectory>
+     <CompilerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</CompilerRelPath>
+     <CopyOutputFilesToTargetDir>1</CopyOutputFilesToTargetDir>
+     <COutExtensions>o</COutExtensions>
+     <DeleteTemporalyFiles>0</DeleteTemporalyFiles>
+     <DF_AllowBlanks>True</DF_AllowBlanks>
+     <DF_CheckSourceFileFolder>True</DF_CheckSourceFileFolder>
+     <DF_End></DF_End>
+     <DF_Keyword></DF_Keyword>
+     <DF_ReqBlanks>True</DF_ReqBlanks>
+     <DF_Start></DF_Start>
+     <DF_Valid>False</DF_Valid>
+     <DisplayParameters>0</DisplayParameters>
+     <ExecutableFileName>output.elf</ExecutableFileName>
+     <ExternalMake>0</ExternalMake>
+     <ExternalMakeFile></ExternalMakeFile>
+     <HeaderExtension>h</HeaderExtension>
+     <LinkerRelPath>$(CMPDIR)bin\arm-none-eabi-gcc.exe</LinkerRelPath>
+     <LInpExtensions>o;a</LInpExtensions>
+     <LnkAdditionalOutExt></LnkAdditionalOutExt>
+     <ParallelBuild>1</ParallelBuild>
+     <ParallelBuildNum>0</ParallelBuildNum>
+     <PathSeparator>\</PathSeparator>
+     <RootDir></RootDir>
+     <RunAfterAsm></RunAfterAsm>
+     <RunAfterAsmParam></RunAfterAsmParam>
+     <RunAfterComp></RunAfterComp>
+     <RunAfterCompParam></RunAfterCompParam>
+     <RunAfterLinker></RunAfterLinker>
+     <RunBeforeBuild></RunBeforeBuild>
+     <RunBeforeBuildParam></RunBeforeBuildParam>
+     <RunBeforeMake></RunBeforeMake>
+     <RunBeforeMakeParam></RunBeforeMakeParam>
+     <RunCommandInterpreterAsm>1</RunCommandInterpreterAsm>
+     <RunCommandInterpreterCmp>1</RunCommandInterpreterCmp>
+     <RunCommandInterpreterLnk>1</RunCommandInterpreterLnk>
+     <RunWithRelativePath>0</RunWithRelativePath>
+     <ShowToolWindow>0</ShowToolWindow>
+     <WarnIncludes>0</WarnIncludes>
+     <Env.0>
+      <__></__>
+     </Env.0>
+     <IncludePath.0>
+      <Path>$(IRFDIR)\ArduinoCore\system\libsam\include</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.0>
+     <IncludePath.1>
+      <Path>$(IRFDIR)\ArduinoCore\system\CMSIS\Device\ATMEL\sam3xa\include</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.1>
+     <IncludePath.10>
+      <Path>$(IRFDIR)</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.10>
+     <IncludePath.2>
+      <Path>$(IRFDIR)\ArduinoCore\system\CMSIS\CMSIS\Include</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.2>
+     <IncludePath.3>
+      <Path>$(IRFDIR)\ArduinoCore\variants\arduino_due_x</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.3>
+     <IncludePath.4>
+      <Path>$(IRFDIR)\ArduinoCore\system\CMSIS\Device\ATMEL</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.4>
+     <IncludePath.5>
+      <Path>$(IRFDIR)\ArduinoCore</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.5>
+     <IncludePath.6>
+      <Path>$(IRFDIR)\ArduinoCore\system</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.6>
+     <IncludePath.7>
+      <Path>$(IRFDIR)\ArduinoCore\system\libsam</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.7>
+     <IncludePath.8>
+      <Path>$(IRFDIR)\ArduinoCore\cores\arduino</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.8>
+     <IncludePath.9>
+      <Path>$(IRFDIR)\ArduinoCore\cores\arduino\avr</Path>
+      <SubDir>1</SubDir>
+     </IncludePath.9>
+     <mbBuild>
+      <Mode>0</Mode>
+      <Options></Options>
+      <Path></Path>
+     </mbBuild>
+     <mbMake>
+      <Mode>0</Mode>
+      <Options></Options>
+      <Path></Path>
+     </mbMake>
+    </GlobalOptions>
+    <Project.0>
+     <DefaultTargetName>Debug</DefaultTargetName>
+     <FilterName>GCC</FilterName>
+     <ProjectName></ProjectName>
+     <AdvancedLinkerOptions>
+      <AsmCustomFilterName></AsmCustomFilterName>
+      <AsmUseDefaultName>True</AsmUseDefaultName>
+      <CaptureErrOutOnly>False</CaptureErrOutOnly>
+      <CmpCustomFilterName></CmpCustomFilterName>
+      <CmpUseDefaultName>True</CmpUseDefaultName>
+      <ExternalFilterPath></ExternalFilterPath>
+      <LinkCustomFilterName></LinkCustomFilterName>
+      <LinkUseDefaultName>True</LinkUseDefaultName>
+      <UseExternalFilter>False</UseExternalFilter>
+     </AdvancedLinkerOptions>
+     <Target.0>
+      <TargetName>Debug</TargetName>
+      <FileOptios>
+       <AssemblerOptions>-mthumb -mcpu=cortex-m3 -c -g -Wall -o $(NOEXT).o $(EDNAME) $(DEFINES)</AssemblerOptions>
+       <AssemblerOptionsWR>True</AssemblerOptionsWR>
+       <CompilerDefinesWR>True</CompilerDefinesWR>
+       <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+       <CompilerOptionsWR>True</CompilerOptionsWR>
+      </FileOptios>
+      <LinkGroup.0>
+       <LinkGroupName>Source files</LinkGroupName>
+       <File.0>
+        <FileName>$(IRFDIR)\Sketch\sketch.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.0>
+      </LinkGroup.0>
+      <LinkGroup.1>
+       <LinkGroupName>Linker files</LinkGroupName>
+       <File.0>
+        <FileName>$(IRFDIR)\ArduinoCore\variants\arduino_due_x\linker_scripts\gcc\flash.ld</FileName>
+       </File.0>
+      </LinkGroup.1>
+      <LinkGroup.2>
+       <LinkGroupName>ArduinoCore</LinkGroupName>
+       <File.0>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\main.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.0>
+       <File.1>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\adc.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.1>
+       <File.10>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\dacc.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.10>
+       <File.11>
+        <FileName>$(IRFDIR)\ArduinoCore\libraries\Wire\src\Wire.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.11>
+       <File.12>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\timetick.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.12>
+       <File.13>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\hooks.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.13>
+       <File.14>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\pio.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.14>
+       <File.15>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\adc12_sam3u.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.15>
+       <File.16>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\can.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.16>
+       <File.17>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\efc.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.17>
+       <File.18>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\emac.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.18>
+       <File.19>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\gpbr.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.19>
+       <File.2>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\watchdog.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.2>
+       <File.20>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\interrupt_sam_nvic.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.20>
+       <File.21>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\pmc.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.21>
+       <File.22>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\pwmc.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.22>
+       <File.23>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\rstc.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.23>
+       <File.24>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\rtc.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.24>
+       <File.25>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\rtt.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.25>
+       <File.26>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\spi.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.26>
+       <File.27>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\ssc.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.27>
+       <File.28>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\tc.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.28>
+       <File.29>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\trng.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.29>
+       <File.3>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\wiring.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.3>
+       <File.30>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\twi.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.30>
+       <File.31>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\udp.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.31>
+       <File.32>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\udphs.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.32>
+       <File.33>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\uotghs.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.33>
+       <File.34>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\uotghs_device.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.34>
+       <File.35>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\uotghs_host.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.35>
+       <File.36>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\usart.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.36>
+       <File.37>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\abi.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.37>
+       <File.38>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\cortex_handlers.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.38>
+       <File.39>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\iar_calls_sam3.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.39>
+       <File.4>
+        <FileName>$(IRFDIR)\ArduinoCore\variants\arduino_due_x\variant.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.4>
+       <File.40>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\IPAddress.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.40>
+       <File.41>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\itoa.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.41>
+       <File.42>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\new.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.42>
+       <File.43>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\Print.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.43>
+       <File.44>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\Reset.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.44>
+       <File.45>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\RingBuffer.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.45>
+       <File.46>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\Stream.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.46>
+       <File.47>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\syscalls_sam3.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.47>
+       <File.48>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\USARTClass.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.48>
+       <File.49>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\WInterrupts.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.49>
+       <File.5>
+        <FileName>$(IRFDIR)\ArduinoCore\system\libsam\source\wdt.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.5>
+       <File.50>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\wiring_pulse.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.50>
+       <File.51>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\wiring_pulse_asm.S</FileName>
+        <FileOptios>
+         <AssemblerOptions>-mthumb -mcpu=cortex-m3 -c -g -Wall -o $(NOEXT).o $(EDNAME) $(DEFINES)</AssemblerOptions>
+        </FileOptios>
+       </File.51>
+       <File.52>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\wiring_shift.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.52>
+       <File.53>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\api\String.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.53>
+       <File.54>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\api\Common.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.54>
+       <File.55>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\avr\dtostrf.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.55>
+       <File.56>
+        <FileName>$(IRFDIR)\ArduinoCore\system\CMSIS\Device\ATMEL\sam3xa\source\gcc\startup_sam3xa.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.56>
+       <File.6>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\UARTClass.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.6>
+       <File.7>
+        <FileName>$(IRFDIR)\ArduinoCore\system\CMSIS\Device\ATMEL\sam3xa\source\system_sam3xa.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.7>
+       <File.8>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\wiring_digital.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.8>
+       <File.9>
+        <FileName>$(IRFDIR)\ArduinoCore\cores\arduino\wiring_analog.c</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.9>
+      </LinkGroup.2>
+      <LinkGroup.3>
+       <LinkGroupName>Libraries</LinkGroupName>
+       <File.0>
+        <FileName>$(IRFDIR)\ArduinoCore\libraries\HID\src\HID.cpp</FileName>
+        <FileOptios>
+         <CompilerOptions>-c -g -Os -Wall -Wextra -std=gnu99 -ffunction-sections -fdata-sections -nostdlib -fno-threadsafe-statics --param max-inline-insns-single=500 -fno-rtti -fno-exceptions -MMD -mcpu=cortex-m3 -mthumb -DF_CPU=84000000L -DARDUINO=10810 -DARDUINO_SAM_DUE -DARDUINO_ARCH_SAM -D__SAM3X8E__ -mthumb -DUSB_VID=0x2341 -DUSB_PID=0x003e -DUSBCON &quot;-DUSB_MANUFACTURER=\&quot;Arduino LLC\&quot;&quot; &quot;-DUSB_PRODUCT=\&quot;Arduino Due\&quot;&quot;  -o $(NOEXT).o -I$(IRFDIR)..\..\common -I$(IRFDIR) $(EDNAME) -I$(IRFDIR)..\..\common\iTest -I $(INCLUDES) -I $(IRFDIR) $(INCLUDES)</CompilerOptions>
+        </FileOptios>
+       </File.0>
+      </LinkGroup.3>
+      <TargetOptios>
+       <AsmArgFile></AsmArgFile>
+       <BuildOptions></BuildOptions>
+       <CompArgFile></CompArgFile>
+       <CRLF>True</CRLF>
+       <ExternalMakeFileParameters></ExternalMakeFileParameters>
+       <IndFileLocation>0</IndFileLocation>
+       <IndirectionFile>$(IRFDIR)ArduinoCore\variants\arduino_due_x\linker_scripts\gcc\flash.ld</IndirectionFile>
+       <LinkerOptions>-Wl,--verbose -mcpu=cortex-m3 -mthumb -Os -Wl,--gc-sections &quot;-T$(INDPATH)&quot; &quot;-Wl,-Map,flash.map&quot; -o $(OUTPUTFILE) -Wl,--cref -Wl,--check-sections -Wl,--gc-sections -Wl,--entry=Reset_Handler -Wl,--unresolved-symbols=report-all -Wl,--warn-common -Wl,--warn-section-align -Wl,--start-group -u _sbrk -u _close -u _fstat -u _isatty -u _lseek -u _read -u _write -u _exitl -u _getpid -u kill -u list</LinkerOptions>
+       <MakeOptions></MakeOptions>
+       <RunAfterLinkParam></RunAfterLinkParam>
+       <SkipObjectCheck>False</SkipObjectCheck>
+       <TargetDirectory>Debug</TargetDirectory>
+       <TargetDirectory2></TargetDirectory2>
+       <TranslateCharacter>38</TranslateCharacter>
+       <UseTargetDirectory2>No</UseTargetDirectory2>
+      </TargetOptios>
+     </Target.0>
+     <TargetOptions>
+      <AsmArgFile></AsmArgFile>
+      <BuildOptions></BuildOptions>
+      <CompArgFile></CompArgFile>
+      <CRLF>False</CRLF>
+      <ExternalMakeFileParameters></ExternalMakeFileParameters>
+      <IndFileLocation>0</IndFileLocation>
+      <IndirectionFile></IndirectionFile>
+      <LinkerOptions></LinkerOptions>
+      <MakeOptions></MakeOptions>
+      <RunAfterLinkParam></RunAfterLinkParam>
+      <SkipObjectCheck>False</SkipObjectCheck>
+      <TargetDirectory></TargetDirectory>
+      <TargetDirectory2></TargetDirectory2>
+      <TranslateCharacter>38</TranslateCharacter>
+      <UseTargetDirectory2>No</UseTargetDirectory2>
+     </TargetOptions>
+    </Project.0>
+   </Project>
+  </REG_ROOT>
+ </Root>
