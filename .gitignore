@@ -32,3 +32,6 @@
 *.app
 *.elf
 *.bin
+
+# Other
+*.map
