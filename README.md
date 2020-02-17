@@ -10,7 +10,7 @@ Don't forget that the J-Link debugger also requires a 3.3V signal on the Vref pi
 
 ## How to start debugging
   - Build your program by pressing F7
-  - Initialize your J-Link connection by clicking on *Segger -> Connect J-Link*
+  - Initialize your J-Link connection by clicking on *Segger -> J-Link Maintenance -> Connect J-Link*
   - Click on the Download button
   - If successful, the debugger stops in the Startup function. Now you can run your program (F5) or step through the code (F10), etc.
   
